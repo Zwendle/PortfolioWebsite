@@ -7,7 +7,7 @@ describe('resolveThemeId', () => {
   });
 
   it('falls back to the default for unknown, empty, or non-string values', () => {
-    expect(resolveThemeId('nope')).toBe('hybrid');
+    expect(resolveThemeId('nop')).toBe('hybrid');
     expect(resolveThemeId(null)).toBe('hybrid');
     expect(resolveThemeId(undefined)).toBe('hybrid');
   });
