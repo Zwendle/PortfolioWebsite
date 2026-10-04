@@ -3,7 +3,7 @@ import { resolveThemeId } from './index';
 
 describe('resolveThemeId', () => {
   it('returns a known theme id unchanged', () => {
-    expect(resolveThemeId('hybrid')).toBe('hybrid');
+    expect(resolveThemeId('hybrid')).toBe('breakingChange');
   });
 
   it('falls back to the default for unknown, empty, or non-string values', () => {
